@@ -10,7 +10,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: cloud-config-dept-eureka-client
+    name: application-dev-config-eureka-client
 
 #新增eureka配置
 eureka:
@@ -32,7 +32,7 @@ server:
 spring:
    profiles: test
    application:
-          name: cloud-config-dept-eureka-client-test
+          name: application-dev-config-eureka-client
           
 #新增eureka配置
 eureka:
