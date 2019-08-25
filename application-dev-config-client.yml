@@ -4,8 +4,8 @@ spring:
      - dev 
 ---
 server: 
-  port: 8201
-spring: 
+   port: 8201
+  spring: 
     profiles: dev
     application:
        name: cloud-config-client
@@ -15,7 +15,7 @@ eureka:
          defaultZone:  http://eureka-dev.com:7001/eureka/
 ---
 server:
-  port: 8202
+   port: 8202
 spring:
    profiles: test 
       application: 
